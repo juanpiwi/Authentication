@@ -67,6 +67,6 @@ HMACSHA256(
 )
 ```
 
-Esto se puede comprobar en JWT.io 
+Esto se puede comprobar en [JWT.io] 
 
 [JWT.io]: http://jwt.io/
