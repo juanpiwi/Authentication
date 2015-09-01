@@ -35,9 +35,9 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI1NGE4Y2U2MThlOTFiMGIxMzY2NWUyZjk
 
 + **Payload**: EL Payload está compuesto por los llamados JWT Claims donde irán colocados la atributos que definen nuestro token. Exiten varios que puedes consultar aquí, los más comunes a utilizar son: 
 
-1. *sub*: Identifica el sujeto del token, por ejemplo un identificador de usuario.
-2. *iat*: Identifica la fecha de creación del token, válido para si queremos ponerle una fecha de caducidad. En formato de tiempo UNIX
-3. *exp*: Identifica a la fecha de expiración del token. Podemos calcularla a partir del iat. También en formato de tiempo UNIX
+    1. *sub*: Identifica el sujeto del token, por ejemplo un identificador de usuario.
+    1. *iat*: Identifica la fecha de creación del token, válido para si queremos ponerle una fecha de caducidad. En formato de tiempo UNIX
+    1. *exp*: Identifica a la fecha de expiración del token. Podemos calcularla a partir del iat. También en formato de tiempo UNIX
 
 ```sh
 {
